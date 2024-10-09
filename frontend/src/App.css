@@ -1,0 +1,105 @@
+html {
+  background-color: #eee9db;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #3f3b37;
+  height: 44px;
+  position: relative;
+  z-index: 10;
+}
+
+canvas {
+  border: 0.1px solid black;
+}
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-layout-header .ant-menu {
+  height: 44px;
+  margin-right: 11rem;
+  background-color: #3f3b37;
+}
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-select-single.ant-select-lg {
+  font-size: 16px;
+  height: 30px;
+}
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-item {
+  top: 0px;
+  margin-top: -8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-item-selected {
+  background-color: #00c9af;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+:where(.css-dev-only-do-not-override-ccdg5a).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-item:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.ant-menu-title-content a {
+  right: 23px;
+}
+.info {
+  background-color: aqua;
+}
+
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: bold;
+  flex: 1;
+}
+
+.nav-menu {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  background: #015058;
+}
+
+.month-selector {
+  min-width: 200px;
+}
+
+.app-content {
+  padding: 24px;
+  background-color: #eee9db;
+  min-height: 600px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: inline-block;
+  }
+
+  .month-selector {
+    margin-left: 12px;
+    width: 150px;
+  }
+
+  .logo {
+    flex: 2;
+  }
+}
