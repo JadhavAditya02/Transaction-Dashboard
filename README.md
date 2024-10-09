@@ -33,10 +33,8 @@ This project is designed to implement a backend service and frontend interface f
 ```bash
   npm run dev
 ```
-After running successfully this will be shown in terminal
-```bash
+After running successfully this will be shown in terminal:
 Local:   http://localhost:5173/
-```
 
 ### Backend
 #### Open new terminal and write this commands:
@@ -50,10 +48,8 @@ Local:   http://localhost:5173/
   npm run dev
 ```
 After running successfully this will be shown in terminal
-```bash
 Server is running on port 5000
 Connected to MongoDB
-```
 
 
 ### Run this app locally:
