@@ -5,7 +5,7 @@ This project is designed to implement a backend service and frontend interface f
 
 
 
-![image alt]((https://raw.githubusercontent.com/JadhavAditya02/Transaction-Dashboard/refs/heads/main/Untitled%20design.png))
+![image alt](https://raw.githubusercontent.com/JadhavAditya02/Transaction-Dashboard/refs/heads/main/Untitled%20design.png)
 
 
 ## Tech Stack
